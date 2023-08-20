@@ -1,9 +1,11 @@
-n range(1, 101):
-        if num % 3 == 0 and num % 5 != 0:
-            print('Fizz', end=' ')
-        elif num % 5 == 0 and num % 3 != 0:
-            print('Buzz', end=' ')
-        elif num % 3 == 0 and num % 5 == 0:
-            print('FizzBuzz', end=' ')
+#!/usr/bin/python3
+def fizzbuzz():
+    for i in range(1, 101):
+        if (i % 15 == 0):
+            print("FizzBuzz ", end="")
+        elif (i % 3 == 0):
+            print("Fizz ", end="")
+        elif (i % 5 == 0):
+            print("Buzz ", end="")
         else:
-            print(num, end=' ')
+            print("{:d} ".format(i), end="")
