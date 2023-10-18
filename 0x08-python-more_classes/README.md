@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Resources
 Read or watch:
 
@@ -37,6 +38,8 @@ How to bind attributes to object and classes
 What is and what does contain __dict__ of a class and of an instance of a class
 How does Python find the attributes of an object or class
 How to use the getattr function
+=======
+>>>>>>> c923dacf8f54e2e8c13bb36a5ae24c0b6d515152
 Copyright - Plagiarism
 You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
